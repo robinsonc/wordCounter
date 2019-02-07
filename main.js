@@ -23,6 +23,7 @@ async function makeCollection(paragraph) {
     var wordsArray = paragraph.split(/\s+/);
  
     wordsArray.forEach(function (key) {
+        key = key.toLowerCase(); // words can be both UC or LC
         if (wordsCollection.hasOwnProperty(key)) {
             wordsCollection[key]++;
         } else {
@@ -144,7 +145,7 @@ function iterateFile() {
     });
 }
 
-////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
 ////////////////////////// MAIN ////////////////////////
 ///////////////////////////////////////////////////////
 try {
