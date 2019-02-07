@@ -1,0 +1,35 @@
+{
+  "name": "avaamo",
+  "version": "1.0.0",
+  "description": "Technical Assessment",
+  "main": "main.js",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinsonc/wordCounter.git"
+  },
+  "keywords": [
+    "word",
+    "counter",
+    "occurrences",
+    "of",
+    "a",
+    "word",
+    "synonyms",
+    "parts",
+    "of",
+    "speech"
+  ],
+  "author": "Robinson Chacko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinsonc/wordCounter.git/issues"
+  },
+  "homepage": "https://github.com/robinsonc/wordCounter.git#readme"
+}
